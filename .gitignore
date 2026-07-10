@@ -1,0 +1,13 @@
+# Python virtual environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local credentials / user data
+users.xlsx
+
+# Environment and editor settings
+.env
+.vscode/
+.idea/
+.DS_Store
