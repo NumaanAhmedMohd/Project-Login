@@ -3,7 +3,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-# Show Login Page
+
 @app.route('/')
 def home():
     return render_template("login.html")
@@ -39,7 +39,7 @@ def login():
         error="Invalid Username or Password"
     )
 
-# Landing Page
+
 @app.route('/landing')
 def landing():
     return render_template("index.html")
